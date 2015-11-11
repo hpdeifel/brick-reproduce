@@ -1,0 +1,20 @@
+name:                brick-reproduce
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            http://github.com/rootzlevel/brick-reproduce#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Hans-Peter Deifel
+maintainer:          hpd@hpdeifel.de
+copyright:           2015 Hans-Peter Deifel
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable brick-reproduce
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, brick, vty, lens, vector
+  ghc-options:         -threaded
